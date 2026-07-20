@@ -9,7 +9,14 @@ body {
    ================= */
 
 h1 {
+  font-size: 2.5rem;
   font-weight: 400;
+  text-shadow: 0 2px #816fca;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin: 0.167em 0;
 }
 
 .beta-text {
@@ -19,6 +26,22 @@ h1 {
 .subheading {
   color: #575757;
   font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+/* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+  display: flex;
+  flex-direction: column;
 }
 
 /* =================
@@ -26,14 +49,11 @@ h1 {
    ================= */
 
 .intro {
+  justify-content: center;
+  min-height: 250px;
+  text-align: center;
   color: #fff;
   background-color: #9480e4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 250px;
 }
 
 /* ====================
@@ -41,16 +61,14 @@ h1 {
    ==================== */
 
 .main-content {
-  padding: 2.5em 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .img-main {
-  width: 7.5em;
-  height: 7.5em;
+  width: 120px;
   border-radius: 50%;
 }
 
