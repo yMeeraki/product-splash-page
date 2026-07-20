@@ -1,6 +1,6 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #404040;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #404040;
 }
 
 /* =================
@@ -8,16 +8,16 @@ body {
    ================= */
 
 h1 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-.beta-text { 
-    font-weight: 900;
+.beta-text {
+  font-weight: 900;
 }
 
 .subheading {
-    color: #575757;
-    font-weight: 900;
+  color: #575757;
+  font-weight: 900;
 }
 
 /* =================
@@ -34,20 +34,18 @@ h1 {
     - Remove the space around the edges of the page
 */
 
-.intro { 
-    color: #fff;
-    background-color: #9480e4;
+.intro {
+  color: #fff;
+  background-color: #9480e4;
 }
 
 /* ====================
     Main content
    ==================== */
 
-
 /* =================
     Form
    ================= */
-   
 
 /* =================
     Media queries 
