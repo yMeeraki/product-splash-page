@@ -19,6 +19,11 @@ h2 {
   margin: 0.167em 0;
 }
 
+.beta-text,
+.subheading {
+  text-transform: uppercase;
+}
+
 .beta-text {
   font-weight: 900;
 }
