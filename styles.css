@@ -97,23 +97,26 @@ input:focus {
   background: #e6e8ec;
 }
 
-.btn{
+.btn {
   display: block;
   font-family: inherit;
   width: 100%;
-  background: #8a71ec;
-  color: #fff;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing:1px;
+  letter-spacing: 1px;
   border: 0;
   border-radius: 5px;
-  margin: 1em;
   padding: 1em 0;
   cursor: pointer;
 }
 
-.btn-primary{
+.btn-primary {
+  background: #8a71ec;
+  color: #fff;
+  margin: 1em;
+}
+
+.btn-primary:hover {
   background: #b7a7f6;
 }
 
