@@ -89,6 +89,7 @@ input {
   margin-bottom: 0.5em;
   padding: 0.5em;
   border: 2px solid #d1d5db;
+  border-radius: 4px;
 }
 
 input[type="text"]:focus {
