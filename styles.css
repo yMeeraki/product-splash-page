@@ -39,6 +39,22 @@ p {
   line-height: 1.35;
 }
 
+.top-text {
+  margin-top: 0em;
+  order: -1;
+  font-size: 0.875rem;
+  font-weight: 900;
+  padding-top: 0.25em;
+  border-top: 5px solid;
+  align-self: center;
+}
+
+.fine-print {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
 /* =================
     Flex containers
    ================= */
@@ -47,7 +63,7 @@ p {
 .main-content {
   display: flex;
   flex-direction: column;
-  padding-top: 2.5em;
+  /* padding-top: 2.5em; */
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -57,12 +73,14 @@ p {
    ================= */
 
 .intro {
-  justify-content: center;
-  min-height: 250px;
+  
+  justify-content: space-between;
+  min-height: 100vh;
   text-align: center;
   color: #fff;
   background: #9480e4 url("./images/intro-bg.png");
   background-size: cover;
+  margin-top: 0em;
 }
 
 /* ====================
