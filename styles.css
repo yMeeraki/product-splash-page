@@ -86,11 +86,22 @@ p {
     Media queries 
    ================= */
 
-@media (min-width:576px) {
-  body{
+@media (min-width: 576px) {
+  body {
     display: flex;
   }
-  .intro,.main-content{
+
+  .intro,
+  .main-content {
     flex-basis: 50%;
+  }
+
+  .intro {
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    justify-content: center;
+    align-items: center;
   }
 }
