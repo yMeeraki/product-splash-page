@@ -47,6 +47,9 @@ p {
 .main-content {
   display: flex;
   flex-direction: column;
+  padding-top: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* =================
@@ -67,9 +70,6 @@ p {
 
 .main-content {
   align-items: center;
-  padding-top: 2.5em;
-  padding-left: 2em;
-  padding-right: 2em;
 }
 
 .img-main {
@@ -104,5 +104,17 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 0;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 2.625rem;
+  }
+
+  .beta-text {
+    font-size: 1.25rem;
   }
 }
